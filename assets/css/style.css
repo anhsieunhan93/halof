@@ -1,6 +1,10 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
 @import "resethtml5.css";
 
+body {
+  font-size: 16px;
+}
+
 /* HEADER */
 .block-language-currency, .block-search, .block-cart {
   margin: 0 15px;
@@ -54,6 +58,38 @@
   line-height: 50px;
   padding: 0 15px;
   text-transform: capitalize;
+  display: block;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+#main-nav > ul > li:hover > a {
+  color: #f47a43;
+}
+
+
+/* BANNER */
+#banner {
+  position: relative;
+  overflow: hidden;
+  height: 550px;
+  background-size: cover;
+  background-position: center center;
+}
+
+#banner .container, #banner .row {
+  height: 100%;
+  align-items: center;
+}
+
+#banner .text .title {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#banner .text .desc {
+  font-size: 18px;
 }
 
 /* PRODUCTS */
@@ -136,9 +172,9 @@
 }
 
 .block-popular-product .action a:nth-child(2) {
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .block-popular-product .img:hover .action a {
