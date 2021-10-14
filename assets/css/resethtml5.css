@@ -868,3 +868,23 @@ body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials a {
+  width: 30px;
+  display: block;
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.socials li:hover a {
+  transform: translateY(-3px);
+}
