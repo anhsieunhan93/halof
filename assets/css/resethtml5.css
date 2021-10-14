@@ -308,6 +308,11 @@ h6 {
 }
 
 /* Margin */
+.mlr-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .ml-auto {
 	margin-left: auto;
 }
@@ -826,6 +831,12 @@ button[type="submit"] {
 
 .block-title .title span {
 	color: #f47a43;
+}
+
+.block-title .read-more {
+    text-transform: uppercase;
+    border-bottom: 1px solid #f47a43;
+    color: #f47a43;
 }
 
 
