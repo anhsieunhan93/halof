@@ -1,0 +1,65 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+@import "resethtml5.css";
+
+/* MENU */
+#main-nav ul li {
+    position: relative;
+}
+
+#main-nav > ul > li {
+    display: inline-block;
+}
+
+#main-nav > ul > li > a {
+    line-height: 50px;
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+
+/* PRODUCTS */
+.block-product {
+    margin: 0 0 20px;
+}
+
+.block-product .info .subtitle {
+    text-transform: uppercase;
+    color: #bd7855;
+}
+
+.block-product img {
+    width: 100%;
+}
+
+/*  */
+.block-popular-product {
+    margin: 0 0 30px;
+}
+
+.block-popular-product .img {
+    margin: 0 0 15px;
+}
+
+.block-popular-product .title {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.block-popular-product .prices {
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.block-popular-product .prices .price {
+    color: #bd7855;
+    margin-right: 15px;
+}
+
+.block-popular-product .old-price{
+    text-decoration: line-through;
+    color: rgba(102, 102, 102, 0.938);
+    font-size: 16px;
+}
+
+.block-popular-product .review-star {
+    color: #bd7855;
+}
