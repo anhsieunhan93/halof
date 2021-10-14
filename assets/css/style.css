@@ -105,3 +105,34 @@
     opacity: 1;
     transform: translateY(-6px);
 }
+
+/* NEWS */
+.block-news .img {
+    overflow: hidden;
+    margin: 0 0 15px;
+}
+
+.block-news .img img {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.block-news .img:hover img {
+    transform: scale(1.05);
+}
+
+.block-news .title {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.block-news .title:hover a {
+    color: #bd7855;
+    transition: all .3s ease-in-out;
+}
+
+.block-news .meta {
+    margin: 0 0 15px;
+    color: #7a7a7a;
+}
