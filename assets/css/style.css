@@ -65,3 +65,16 @@ form.newsletter input[type="submit"], form.newsletter button[type="submit"] { bo
 #footer ul li:hover::before {
   color: #f47a43;
 }
+
+#footer .copyright {
+  border-top: 1px solid rgb(174 174 174 / 17%);
+}
+
+#footer .copyright a {
+  color: #f47a43;
+  font-size: 17px;
+}
+
+.loveWith {
+  color: red;
+}
