@@ -16,7 +16,9 @@ body { font-size: 16px; }
 #banner .text .desc { font-size: 18px; }
 .block-product { margin: 0px 0px 20px; }
 .block-product .info .subtitle { text-transform: uppercase; color: rgb(244, 122, 67); }
-.block-product img { width: 100%; }
+.block-product img { width: 100%; transition: all 0.3s ease 0s; }
+.block-product .img {overflow: hidden;}
+.block-product .img:hover img {transform: scale(1.1);}
 .block-popular-product { margin: 0px 0px 30px; }
 .block-popular-product .img { margin: 0px 0px 15px; }
 .block-popular-product .title { font-size: 17px; font-weight: 500; }
