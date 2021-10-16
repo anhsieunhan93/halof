@@ -859,7 +859,7 @@ button[type="submit"] {
 
 /* Title box */
 .block-title .title {
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin: 0 0 8px;
   font-size: 20px;
 }
