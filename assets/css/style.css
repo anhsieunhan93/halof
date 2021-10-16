@@ -54,6 +54,17 @@ form.newsletter input[type="submit"], form.newsletter button[type="submit"] { bo
 #footer .copyright a { color: rgb(244, 122, 67); font-size: 17px; }
 .loveWith { color: red; }
 
+.block-text p>.fa {
+    width: 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(244 122 67);
+    height: 10px;
+    line-height: 10px;
+    padding: 6px;
+    margin-right: 10px;
+}
+
 #footer img {
     width: auto;
 }
