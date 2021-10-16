@@ -60,6 +60,17 @@ form.newsletter input[type="submit"], form.newsletter button[type="submit"] { bo
 
 /* RESPONSIVE */
 @media screen and (max-width: 991px) {
+    #main-nav, .block-language-currency {
+        display: none;
+    }
+
+    .block-search, .block-cart {
+        margin-left: 0;
+    }
+
+    .block-search {
+        margin-left: auto;
+    }
     
 }
 
