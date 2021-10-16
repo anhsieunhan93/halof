@@ -105,7 +105,7 @@ form.newsletter input[type="submit"], form.newsletter button[type="submit"] { bo
 }
 @media screen and (max-width: 767px) {
     .site-brand {
-        max-width: 100px;
+        max-width: 115px;
         margin: auto;
     }
 }
