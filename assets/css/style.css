@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 @import url("resethtml5.css");
-body { font-size: 16px; }
+body { font-size: 14px; }
 img {width: 100%;}
 .block-language-currency, .block-search, .block-cart { margin: 0px 15px; }
 .block-cart { font-size: 17px; }
