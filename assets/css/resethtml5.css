@@ -318,6 +318,10 @@ h6 {
   padding-top: 50px;
 }
 
+.pb-50 {
+  padding-bottom: 50px;
+}
+
 .plr-30 {
   padding-left: 30px;
   padding-right: 30px;
@@ -924,3 +928,4 @@ body {
 .socials li:hover a {
   transform: translateY(-3px);
 }
+
