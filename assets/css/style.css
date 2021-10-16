@@ -1,6 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 @import url("resethtml5.css");
 body { font-size: 16px; }
+img {width: 100%;}
 .block-language-currency, .block-search, .block-cart { margin: 0px 15px; }
 .block-cart { font-size: 17px; }
 .block-cart a { display: block; width: 30px; height: 30px; line-height: 30px; text-align: center; position: relative; font-size: 20px; }
@@ -8,7 +9,7 @@ body { font-size: 16px; }
 .block-search a { width: 30px; text-align: center; line-height: 30px; font-weight: normal; }
 #main-nav ul li { position: relative; }
 #main-nav > ul > li { display: inline-block; }
-#main-nav > ul > li > a { line-height: 50px; padding: 0px 15px; text-transform: capitalize; display: block; transition: color 0.3s ease 0s; }
+#main-nav > ul > li > a {line-height: 50px;padding: 0px 15px;text-transform: uppercase;display: block;transition: color 0.3s ease 0s;font-weight: 500;}
 #main-nav > ul > li:hover > a { color: rgb(244, 122, 67); }
 #banner { position: relative; overflow: hidden; height: 550px; background-size: cover; background-position: center center; }
 #banner .container, #banner .row { height: 100%; align-items: center; }
@@ -52,3 +53,20 @@ form.newsletter input[type="submit"], form.newsletter button[type="submit"] { bo
 #footer .copyright { border-top: 1px solid rgba(174, 174, 174, 0.17); }
 #footer .copyright a { color: rgb(244, 122, 67); font-size: 17px; }
 .loveWith { color: red; }
+
+#footer img {
+    width: auto;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (max-width: 414px) {
+    
+}

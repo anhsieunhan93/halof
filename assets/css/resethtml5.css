@@ -220,11 +220,14 @@ h6 {
 
 /*Layouts */
 .container {
-  max-width: 90%;
-  width: 1140px;
+  max-width: 1140px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 .container-fluid {
   max-width: 95%;
   width: 100%;
@@ -233,6 +236,7 @@ h6 {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .row {
   display: -webkit-flex;
   display: -moz-flex;
@@ -240,7 +244,10 @@ h6 {
   display: -o-flex;
   display: flex;
   flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
+
 .col {
   padding-left: 15px;
   padding-right: 15px;
@@ -312,13 +319,13 @@ h6 {
 }
 
 .plr-30 {
-    padding-left: 30px;
-    padding-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .subtr-30 {
-    margin-left: -30px;
-    margin-right: -30px;
+  margin-left: -30px;
+  margin-right: -30px;
 }
 
 /* Margin */
@@ -653,17 +660,28 @@ button[type="submit"] {
     flex-direction: column;
   }
 
-  .mb-30 {
+  .m-mb-30 {
     margin-bottom: 30px;
   }
 
-  .mnone {
+  .m-none {
     display: none;
   }
 
   .mimg-100 {
     width: 100%;
   }
+
+  .plr-30 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .subtr-30 {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
