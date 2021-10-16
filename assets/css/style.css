@@ -71,7 +71,16 @@ form.newsletter input[type="submit"], form.newsletter button[type="submit"] { bo
     .block-search {
         margin-left: auto;
     }
+
+    #banner {
+        max-height: 350px;
+        text-align: center;
+    }
     
+    #banner .text .title {
+        font-size: 19px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
