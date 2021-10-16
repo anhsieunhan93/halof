@@ -63,15 +63,51 @@ form.newsletter input[type="submit"], form.newsletter button[type="submit"] { bo
 .sort-dropdown ul li a { display: block; }
 .sort-dropdown ul li:hover { background-color: rgb(242, 242, 242); }
 .list-sort:hover .sort-dropdown { opacity: 1; visibility: visible; }
+
+.btn-menu {
+    width: 20px;
+    height: 21px;
+    background-color: transparent;
+    display: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-menu span {
+    height: 2.3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #333;
+}
+
+.btn-menu span:nth-child(1) {
+    top: 3px;
+}
+
+.btn-menu span:nth-child(2) {
+    top: 50%;
+    margin-top: -1px;
+}
+
+.btn-menu span:nth-child(3) {
+    bottom: 3px;
+}
+
 @media screen and (max-width: 991px) {
   #main-nav, .block-language-currency { display: none; }
   .block-search, .block-cart { margin-left: 0px; }
-  .block-search { margin-left: auto; }
+  .block-search {}
   #banner { max-height: 350px; text-align: center; }
   #banner .text .title { font-size: 19px; }
   .block-popular-product .action a { width: 40px; height: 40px; line-height: 40px; font-size: 14px; }
+  .btn-menu { display: block; }
 }
 @media screen and (max-width: 767px) {
+    .site-brand {
+        max-width: 100px;
+        margin: auto;
+    }
 }
 @media screen and (max-width: 414px) {
 }
