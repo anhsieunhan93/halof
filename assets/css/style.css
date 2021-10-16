@@ -314,8 +314,8 @@ form.newsletter button[type="submit"] {
 }
 
 .list-sort:hover .sort-dropdown {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 /* RESPONSIVE */
@@ -341,6 +341,13 @@ form.newsletter button[type="submit"] {
 
   #banner .text .title {
     font-size: 19px;
+  }
+
+  .block-popular-product .action a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
   }
 }
 
