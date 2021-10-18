@@ -12,9 +12,72 @@
         });
     }
 
+    function showCartBox() {
+        $('.block-shopping-cart .cart-title .close').on('click', function() {
+            $('.block-shopping-cart').removeClass('active');
+        });
+
+        $('.block-cart a').on('click', function(e) {
+            e.preventDefault();
+            $('.block-shopping-cart').addClass('active');
+        })
+    }
+
+    function backTop() {
+        
+        $(window).scroll(function() {
+            if($(this).scrollTop() > 800) {
+                $('#back-top').addClass('active');
+            } else {                
+                $('#back-top').removeClass('active');
+            }
+        });
+
+        $('#back-top').on('click', function() {
+            $('html, body').animate({ scrollTop: 0 }, 1000 );
+            return false;
+        });
+    }
+
+    function menuMoble() {
+        var $header = $('#header'),
+            $menu   = $('#main-nav'), 
+            $menuMobile = $('#main-nav-mobile'),
+            $btnMenu = $('.btn-menu'),
+            $menuType = 'desktop';
+
+        $(window).on('load resize', function() {
+            var $mode = 'desktop';
+
+            if(matchMedia('only screen and (max-width: 991px)').matches) 
+                $mode = 'mobile';
+
+            if ( $mode != $menuType ) {
+                $menuType = $mode;
+
+                if ( $mode == 'mobile' ) {
+                    $menu.attr('id', 'main-nav-mobile').hide();								
+                } else {
+                    $('#main-nav-mobile').attr('id', 'main-nav').removeAttr('style');
+                }
+            }
+           
+        }); 
+        
+        $btnMenu.on('click', function() {
+            $menu.toggle();
+        });
+        
+
+        
+    }
+
     // DOM Read
     $(function() {
         showSearchBox();
+        showCartBox();
+        backTop();
+        menuMoble();
     });
 
 })(jQuery);

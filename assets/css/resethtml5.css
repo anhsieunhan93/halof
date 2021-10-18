@@ -463,6 +463,28 @@ button[type="submit"] {
   cursor: pointer;
 }
 
+/* Backtop */
+#back-top {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 40px;
+  height: 40px;
+  transform: translateY(100px);
+  background-color: #d3673d;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+#back-top.active {
+  transform: translateY(0);
+}
+
 /* Grid */
 @media only screen and (min-width: 1200px) {
   .xl1 {

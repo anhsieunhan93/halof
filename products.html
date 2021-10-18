@@ -13,6 +13,12 @@
     <header id="header">
         <div class="container-fluid">
             <div class="row py-15 align-items-center">
+                <div class="btn-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
                 <h1 class="site-brand mb-0">
                     <a href="#">
                         <img src="assets/imgs/logo.png" alt="anh siêu nhân">
@@ -42,7 +48,7 @@
                 <div class="block-cart">
                     <a href="#">
                         <span class="fa fa-cart-plus"></span>
-                        <span class="count">0</span>
+                        <span class="count">2</span>
                     </a>
                 </div>
 
@@ -54,11 +60,10 @@
         <div class="container-fluid">
             <div class="row py-50 align-items-center">
 
-                <div class="col xl6 l6 m12">
+                <div class="col xl12 l12 flex flex-space-between">
                     <h1 class="page-title">Products</h1>
-                </div>
-
-                <div class="col xl6 l6 m12 text-right">
+                
+                    
                     <div class="list-sort">
                         <div class="sort-text">Sắp xếp theo: All <span class="fa fa-angle-down"></span></div>
                         <div class="sort-dropdown">
@@ -387,12 +392,13 @@
         </div>
     </section>
 
+
     <footer id="footer">
         <div class="container">
             <div class="row py-30 pt-50">
                 <div class="col xl3 l3 m12 m-mb-30">
                     <div class="block-img mb-20">
-                        <img src="assets/imgs/footer-logo.png" alt="logo">
+                        <img src="assets/imgs/logo.png" alt="logo">
                     </div>
 
                     <div class="block-text">
@@ -439,7 +445,7 @@
 
                 <div class="copyright py-10 col xl12 l12 text-center mt-30 pt-30">
                     Copyright <span class="copyrightYear">2019 - 2021</span> <span class="loveWith">❤</span>
-                    © Powered by <a href="#">Anh Siêu Nhân</a>
+                    © Powered by <a href="https://anhsieunhan.net/" target="_blank">Anh Siêu Nhân</a>
                 </div>
             </div>
         </div>
@@ -453,6 +459,84 @@
                 <button type="submit"></button>
             </div>
         </form>
+    </div>
+
+    <div class="block-shopping-cart">
+        <div class="cart-title">
+            <h3 class="title">Giỏ hàng của bạn</h3>
+            <div class="close">
+                <span class="fa fa-close"></span>
+            </div>
+        </div>
+
+        <ul class="cart-list">
+            <li class="cart-item">
+                <a href="#">
+                    <img src="assets/imgs/cart-item-1.jpg" alt="cart-item-1">
+                </a>
+
+                <div class="cart-info">
+                    <h3 class="title"><a href="#" class="title">Ghế bập bênh đơn giản kiểu Bắc Âu</a></h3>
+
+                    <div class="flex flex-space-between align-items-center">
+                        <div class="quantif">
+                            <span>-</span> <span>2</span> <span>+</span>
+                        </div>
+
+                        <div class="prices">
+                            $ <span>500.00</span>
+                        </div>
+
+                        <div class="close">
+                            <a href="#"><span class="fa fa-trash-o"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="cart-item">
+                <a href="#">
+                    <img src="assets/imgs/cart-item-1.jpg" alt="cart-item-1">
+                </a>
+
+                <div class="cart-info">
+                    <h3 class="title"><a href="#" class="title">Ghế bập bênh đơn giản kiểu Bắc Âu</a></h3>
+
+                    <div class="flex flex-space-between align-items-center">
+                        <div class="quantif">
+                            <span>-</span> <span>2</span> <span>+</span>
+                        </div>
+
+                        <div class="prices">
+                            $ <span>500.00</span>
+                        </div>
+
+                        <div class="close">
+                            <a href="#"><span class="fa fa-trash-o"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+
+        </ul>
+
+        <div class="cart-footer">
+            <div class="flex align-items-center flex-space-between mb-5">
+                <div class="title">
+                    Total
+                </div>
+                <div class="save-price">
+                    $ <span>1,700.00</span>
+                </div>
+            </div>
+            <p class="desc">Taxes and shipping calculated at checkout</p>
+            <a href="#" class="btn btn-checkout">Check out</a>
+        </div>
+    </div>
+
+    <div id="back-top">
+        <span class="fa fa-angle-up"></span>
     </div>
 
     <!-- JavaScripts -->
