@@ -40,11 +40,10 @@
     }
 
     function menuMoble() {
-        var $header = $('#header'),
-            $menu   = $('#main-nav'), 
+        var $menu       = $('#main-nav'),
             $menuMobile = $('#main-nav-mobile'),
-            $btnMenu = $('.btn-menu'),
-            $menuType = 'desktop';
+            $btnMenu    = $('.btn-menu'),
+            $menuType   = 'desktop';
 
         $(window).on('load resize', function() {
             var $mode = 'desktop';
@@ -58,7 +57,7 @@
                 if ( $mode == 'mobile' ) {
                     $menu.attr('id', 'main-nav-mobile').hide();								
                 } else {
-                    $('#main-nav-mobile').attr('id', 'main-nav').removeAttr('style');
+                    $menuMobile.attr('id', 'main-nav').removeAttr('style');
                 }
             }
            
