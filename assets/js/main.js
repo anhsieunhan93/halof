@@ -66,9 +66,20 @@
         $btnMenu.on('click', function() {
             $menu.toggle();
         });
-        
+       
+    }
 
-        
+    function popupForm() {
+        // show form
+        $('.block-user-box a').on('click', function(e) {
+            e.preventDefault();
+            $('.block-form-popup').addClass('active');
+        });
+
+        // close form
+        $('.form-close').on('click', function() {
+            $('.block-form-popup').removeClass('active');
+        });
     }
 
     // DOM Read
@@ -77,6 +88,7 @@
         showCartBox();
         backTop();
         menuMoble();
+        popupForm();
     });
 
 })(jQuery);

@@ -17,13 +17,16 @@ img {
 }
 .block-language-currency,
 .block-search,
-.block-cart {
+.block-cart, .block-user-box {
   margin: 0px 15px;
+}
+.block-search {
+  margin-right: 0;
 }
 .block-cart {
   font-size: 17px;
 }
-.block-cart a {
+.block-cart a, .block-user-box a, .block-search a {
   display: block;
   width: 30px;
   height: 30px;
@@ -45,13 +48,7 @@ img {
   color: rgb(255, 255, 255);
   font-size: 12px;
 }
-.block-search a {
-  width: 30px;
-  text-align: center;
-  line-height: 30px;
-  font-weight: normal;
-  display: block;
-}
+
 #main-nav ul li {
   position: relative;
 }
@@ -574,6 +571,7 @@ form.newsletter button[type="submit"] {
 #main-nav-mobile ul li:hover {
   background-color: rgb(242, 242, 242);
 }
+
 
 @media screen and (max-width: 991px) {
   #main-nav,

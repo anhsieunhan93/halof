@@ -419,7 +419,7 @@ h6 {
 }
 
 /* Form */
-input,
+input[type='text'], input[type='password'], input[type='email'],
 textarea {
   outline: none;
   border: 1px solid #e5e5e5;
@@ -427,7 +427,7 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-input,
+input[type='text'], input[type='password'], input[type='email'],
 textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -483,6 +483,46 @@ button[type="submit"] {
 
 #back-top.active {
   transform: translateY(0);
+}
+
+/* FORM POPUP */
+.block-form-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+.block-form-popup .login-form {
+  width: 410px;
+  max-width: 90%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-close {
+  float: right;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  transform: rotate(15deg);
+  cursor: pointer;
+}
+
+.login-form .btn-submit {
+  width: 100%;
+}
+
+.block-form-popup.active {
+  display: block;
 }
 
 /* Grid */
