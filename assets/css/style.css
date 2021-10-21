@@ -1,5 +1,6 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("font-awesome.min.css");
 @import url("resethtml5.css");
+
 body {
   font-size: 14px;
 }
@@ -17,7 +18,8 @@ img {
 }
 .block-language-currency,
 .block-search,
-.block-cart, .block-user-box {
+.block-cart,
+.block-user-box {
   margin: 0px 15px;
 }
 .block-search {
@@ -26,7 +28,9 @@ img {
 .block-cart {
   font-size: 17px;
 }
-.block-cart a, .block-user-box a, .block-search a {
+.block-cart a,
+.block-user-box a,
+.block-search a {
   display: block;
   width: 30px;
   height: 30px;
@@ -572,6 +576,24 @@ form.newsletter button[type="submit"] {
   background-color: rgb(242, 242, 242);
 }
 
+/* PRODUCT DETAIL */
+.product-detal-text .prices {
+  font-size: 20px;
+}
+
+.product-detal-text .prices .price {
+  color: rgb(244 122 67);
+}
+
+.product-detal-text .prices .old-price {
+  font-size: 15px;
+  text-decoration: line-through;
+  color: #919191;
+}
+
+.product-detal-text .review-star {
+  margin: 15px 0;
+}
 
 @media screen and (max-width: 991px) {
   #main-nav,

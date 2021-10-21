@@ -423,8 +423,9 @@ input[type='text'], input[type='password'], input[type='email'],
 textarea {
   outline: none;
   border: 1px solid #e5e5e5;
-  padding: 5px 10px;
+  padding: 0 10px;
   transition: all 0.3s ease-in-out;
+  line-height: 40px;
 }
 
 input[type='text'], input[type='password'], input[type='email'],
@@ -991,3 +992,29 @@ body {
   transform: translateY(-3px);
 }
 
+.quantif {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  color: #f8f8f8;
+}
+
+.quantif span, .quantif input {
+  width: 50px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  color: #f8f8f8;
+  border: 1px #F2F2F2 solid;
+  padding: 0;
+  background-color: transparent;
+}
+
+.quantif input, .quantif input + span {
+  border-left: 0;
+}
+
+.block-shopping-cart .cart-list .quantif span, .block-shopping-cart .cart-list .quantif input {
+  line-height: 21px;
+  width: 30px;
+}
